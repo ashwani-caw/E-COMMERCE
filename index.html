@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>02 - E-Commerce Component || Advent of JavaScript</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="wrapper menu">
+      <div class="panel">
+        <h1>To Go Menu</h1>
+        <ul class="menu">
+          <li>
+            <div class="plate">
+              <img
+                src="images/plate__french-fries.png"
+                alt="French Fries"
+                class="plate"
+              />
+            </div>
+            <div class="content">
+              <p class="menu-item">French Fries with Ketchup</p>
+              <p class="price">$2.23</p>
+              <button data-value="French Fries with Ketchup" class="add">
+                Add to Cart
+              </button>
+            </div>
+          </li>
+          <li>
+            <div class="plate">
+              <img
+                src="images/plate__salmon-vegetables.png"
+                alt="Salmon and Vegetables"
+                class="plate"
+              />
+            </div>
+            <div class="content">
+              <p class="menu-item">Salmon and Vegetables</p>
+              <p class="price">$5.12</p>
+              <button data-value="Salmon and Vegetables" class="add">
+                Add to Cart
+              </button>
+            </div>
+          </li>
+          <li>
+            <div class="plate">
+              <img
+                src="images/plate__spaghetti-meat-sauce.png"
+                alt="Spaghetti Meat Sauce"
+                class="plate"
+              />
+            </div>
+            <div class="content">
+              <p class="menu-item">Spaghetti with Meat Sauce</p>
+              <p class="price">$7.82</p>
+              <button data-value="Spaghetti with Meat Sauce" class="add">
+                Add to Cart
+              </button>
+            </div>
+          </li>
+          <li>
+            <div class="plate">
+              <img
+                src="images/plate__bacon-eggs.png"
+                alt="Bacon, Eggs, and Toast"
+                class="plate"
+              />
+            </div>
+            <div class="content">
+              <p class="menu-item">Bacon, Eggs, and Toast</p>
+              <p class="price">$5.99</p>
+              <button data-value="Bacon, Eggs, and Toast" class="add">
+                Add to Cart
+              </button>
+            </div>
+          </li>
+          <li>
+            <div class="plate">
+              <img
+                src="images/plate__chicken-salad.png"
+                alt="Chicken Salad with Parmesean"
+                class="plate"
+              />
+            </div>
+            <div class="content">
+              <p class="menu-item">Chicken Salad with Parmesan</p>
+              <p class="price">$6.98</p>
+              <button data-value="Chicken Salad with Parmesan" class="add">
+                Add to Cart
+              </button>
+            </div>
+          </li>
+          <li>
+            <div class="plate">
+              <img
+                src="images/plate__fish-sticks-fries.png"
+                alt="Fish Sticks and Fries"
+                class="plate"
+              />
+            </div>
+            <div class="content">
+              <p class="menu-item">Fish Sticks and Fries</p>
+              <p class="price">$6.34</p>
+              <button data-value="Fish Sticks and Fries" class="add">
+                Add to Cart
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="panel cart">
+        <h1 id="heading">OOPS Your Cart Is Empty!</h1>
+        <ul id="list" class="cart-summary"></ul>
+        <div id="totalContainer" class="totals"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
